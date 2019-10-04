@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(72, 167, 255), rgb(255, 153, 191));
+    font-family: sans-serif;
+    color: white;
+}
+
+.heading {
+    padding-bottom: 30px;
+}
+
+.timezone {
+    display: flex;
+    padding-bottom: 10px; 
+}
+
+.timezone-place {
+    padding: 20px 0px 20px 0px;
+}
+.timezone-title {
+    background: rgba(0,0,0,0.75);
+    box-shadow: 1px -2px 14px -9px rgba(0,0,0,0.75);
+    padding: 20px;
+    height: 40vh;
+    -webkit-box-shadow: 1px -2px 14px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -2px 14px -9px rgba(0,0,0,0.75);
+}
+.timezone-summary {
+    padding-bottom: 20px;
+}
+
+.timezone-icon {
+    color:white;
+    padding-top: 80px;
+    margin-left: 100px;
+    align-items: flex-end;
+}
+
+.timezone-icon p {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.temp {
+    padding: 30px 0px 10px 0px;
+
+}
+
+
+
